@@ -1,0 +1,60 @@
+  //---------------------------------------------------------------------//
+                  // if (!isSearch)
+                  //   Container(
+                  //     height: size.height * 0.05,
+                  //     width: size.width * 0.9,
+                  //     decoration: BoxDecoration(
+                  //         color: MyColors.dullWhite,
+                  //         borderRadius: BorderRadius.circular(3),
+                  //         border: Border.all(
+                  //           color: Colors.black,
+                  //           width: 0.1,
+                  //         )),
+                  //     child: Center(
+                  //       child: Text(
+                  //         ' Building dreams today, paying for them tomorrow.',
+                  //         style: TextStyle(
+                  //           fontSize: 12,
+                  //           fontWeight: FontWeight.w500,
+                  //           fontFamily: 'Nunito',
+                  //           color: Color.fromRGBO(55, 55, 55, 1),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  // SizedBox(height: 10),
+                  //----------------------------------------------------------------------------------//
+                  // if (!isSearch)
+                  //   CarouselSlider.builder(
+                  //     itemCount: imgList.length,
+                  //     itemBuilder: (BuildContext context, int itemIndex,
+                  //         int pageViewIndex) {
+                  //       return Container(
+                  //         padding: EdgeInsets.only(left: 10, right: 10),
+                  //         child: Image.asset(imgList[itemIndex]),
+                  //       );
+                  //     },
+                  //     options: CarouselOptions(
+                  //       initialPage: 0,
+                  //       enableInfiniteScroll: true,
+                  //       padEnds: true,
+                  //       aspectRatio: 1.8,
+                  //       viewportFraction: 1,
+                  //       autoPlay: true,
+                  //       onPageChanged: (itemindex, reason) {
+                  //         setState(() {
+                  //           _current = itemindex;
+                  //         });
+                  //       },
+                  //     ),
+                  //   ),
+                  // SizedBox(height: 5),
+                  // if (!isSearch)
+                  //   Row(
+                  //     mainAxisAlignment: MainAxisAlignment.center,
+                  //     children: List.generate(
+                  //       4,
+                  //       (index) => comingDot(index: index),
+                  //     ),
+                  //   ),
+                  // const SizedBox(height: 20),
